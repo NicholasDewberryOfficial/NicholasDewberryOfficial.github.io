@@ -1,0 +1,50 @@
+<p> 
+For my senior project of my University, I decided to make a team in a pretty big group. We had 4 people (way up from the usual amount of 2-3) make a video game. Everyone else 
+
+I was in charge of game design, and creating all of the enemies. Most importantly, the most fun aspect by far of my project was working with the AI.
+
+<ol>
+AI exists in a lot of video games 
+
+<li> Directed AI (if elif elif else)  </li>
+
+This AI type is extremely common, for better or for worse. Basically using a bunch of if else statements to analyze the state of the world, and choose which action to take. Often times this updates every second or often - which can lead to a lot of performance impacts. 
+
+If someone is using guard clauses and match statements appropriately, then this can be easy to navigate, but this is usually a garbage way to organize video game AI - for many reasons that I won’t get into here. 
+
+<li> Finite state machines (Patrolling -> Investigating -> attacking)  </li>
+
+This AI type is usually what most people think of when it comes to AI. Typically, the AI goes to a specific state where it loops an action. Then if they get an input from the outside world, they can choose a specific action that matches that input. It’s good for dynamic ai types that will need to update and change strategy quite frequently. 
+
+There can be a lot of boilerplate to write, and it can be a bit hard to understand, but its popular for a reason. Its great for emergent behavior
+
+Hierarchical state machines are also an updated framework that people use often. Its a great addition that doesn’t make things too complex 
+
+For example, a confident high morale combat troop will act differently from a desperate low morale combat troop, even though they will have the same actions 
+
+
+https://www.researchgate.net/figure/Hierarchical-finite-state-machine-representation-of-the-scavenger-agent-Self-transitions_fig2_221157398
+
+
+<li> Behavioral trees </li> 
+
+https://docs.unrealengine.com/5.3/en-US/behavior-tree-in-unreal-engine---overview/
+
+A new AI theory that's commonly used for AAA video games.  
+
+It perhaps even has more boilerplate, and perhaps even is slower - but man the benefits are strong. You have a very complex ai system that can do many things at once, and choose its own actions. I was going to use this for my game, but I decided to go all in for the final type of AI.
+
+<li> GOAP </li>
+
+My favorite. I’ve been using this open source github asset [ https://github.com/crashkonijn/GOAP ] for the boilerplate.
+
+
+The basics is that you create a list of goals for a unit. For each goal: 
+
+1. explain conditions for goal to be met 
+
+After that, you create a 
+
+(work in progress, i probably will finish this..... eventually)
+</ol>
+</p>
