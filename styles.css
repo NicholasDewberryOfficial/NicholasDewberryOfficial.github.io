@@ -1,0 +1,116 @@
+body{
+    background-image: url("img/triangles_pattern.png");
+    background-repeat:repeat;
+}
+
+.header {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding to create space around content */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
+/*    position: fixed; /* Fix the header at the top of the viewport */
+    top: 0; /* Position the header at the top */
+    left: 0; /* Position the header at the left */
+    right: 0; /* Position the header at the right */
+   /* z-index: 1000;  Set a high z-index to ensure the header is on top of other elements */
+}
+
+.header a {
+    color: #fff; /* Set link text color */
+    text-decoration: none; /* Remove default underline from links */
+}
+
+.header .logo {
+    font-size: 24px; /* Set font size for the logo */
+    font-weight: bold; /* Set font weight for the logo */
+}
+
+.header .nav {
+   /* display: flex; /* Use flexbox to align navigation items */
+ /*   justify-content: center; /* Center-align navigation items */
+    list-style: none; /* Remove default list styling */
+}
+
+.header .nav li {
+    margin: 0 10px; /* Add space between navigation items */
+}
+
+.header .nav li a {
+    padding: 10px; /* Add padding to navigation links */
+    border-radius: 5px; /* Add rounded corners to navigation links */
+}
+
+.header .nav li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+.maincontent {
+    font-family: Arial, sans-serif; /* Set the font family for the main content */
+    font-size: 16px; /* Set the default font size */
+    line-height: 1.6; /* Set the line height for better readability */
+    margin: 20px; /* Add margin to provide space around the content */
+    background-image: url("img/triangles_pattern.png");
+    background-repeat:repeat;
+    text-shadow: white 0px 0px 10px;
+
+
+}
+
+.maincontent p {
+    margin-bottom: 20px; /* Add margin to paragraphs for spacing between them */
+}
+
+.maincontent h1,
+.maincontent h2,
+.maincontent h3,
+.maincontent h4,
+.maincontent h5,
+.maincontent h6 {
+    font-weight: bold; /* Set font weight for headings */
+    margin-top: 30px; /* Add margin to headings for spacing */
+    margin-bottom: 15px; /* Add margin to headings for spacing */
+}
+
+.maincontent a {
+    color: #007bff; /* Set link color */
+    text-decoration: underline; /* Add underline to links */
+}
+
+.maincontent a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+.maincontent ul,
+.maincontent ol {
+    margin-bottom: 20px; /* Add margin to lists for spacing */
+    margin-left: 20px; /* Indent lists */
+}
+
+.maincontent ul li,
+.maincontent ol li {
+    margin-bottom: 5px; /* Add margin to list items for spacing */
+}
+
+.maincontent blockquote {
+    margin: 0; /* Remove default margin for blockquote */
+    padding: 10px 20px; /* Add padding to blockquote */
+    background-color: #f9f9f9; /* Set background color for blockquote */
+    border-left: 5px solid #ccc; /* Add left border to blockquote */
+}
+
+.maincontent code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Courier New', monospace; /* Set font family for code */
+    font-size: 14px; /* Set font size for code */
+    background-color: #f8f9fa; /* Set background color for code */
+    padding: 2px 4px; /* Add padding to code */
+    border-radius: 4px; /* Add rounded corners to code */
+}
+
+.maincontent pre {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Courier New', monospace; /* Set font family for preformatted text */
+    font-size: 14px; /* Set font size for preformatted text */
+    background-color: #f8f9fa; /* Set background color for preformatted text */
+    padding: 10px; /* Add padding to preformatted text */
+    border-radius: 4px; /* Add rounded corners to preformatted text */
+    overflow-x: auto; /* Add horizontal scrollbar when content overflows */
+    white-space: pre-wrap; /* Wrap long lines */
+}
