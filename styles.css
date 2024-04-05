@@ -1,10 +1,13 @@
 body{
-    background-image: url("img/triangles_pattern.png");
+    background-image: url("img/mp8.png");
     background-repeat:repeat;
+
+    
 }
 
 .header {
-    background-color: #333; /* Set background color */
+    background-color: #7c9aac
+    ; /* Set background color */
     color: #fff; /* Set text color */
     padding: 20px; /* Add padding to create space around content */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a subtle shadow effect */
@@ -48,15 +51,29 @@ body{
     font-size: 16px; /* Set the default font size */
     line-height: 1.6; /* Set the line height for better readability */
     margin: 20px; /* Add margin to provide space around the content */
-    background-image: url("img/triangles_pattern.png");
-    background-repeat:repeat;
+
+    background-color: #ffd0a4;
+   /* background-image: url("img/triangles_pattern.png");
+    background-repeat:repeat; */
     text-shadow: white 0px 0px 10px;
 
+    width: 60%; /* Set the width of the main content */
+    margin: 50px auto; /* Center the main content horizontally and provide spacing from the top */
+    padding: 20px; /* Add padding for spacing within the frame */
+    border: 2px solid #ccc; /* Add border for frame appearance */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow for depth */
 
 }
 
 .maincontent p {
+
+   
+
     margin-bottom: 20px; /* Add margin to paragraphs for spacing between them */
+
+    
+
 }
 
 .maincontent h1,
