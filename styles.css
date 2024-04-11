@@ -50,12 +50,10 @@ body{
     font-family: Arial, sans-serif; /* Set the font family for the main content */
     font-size: 16px; /* Set the default font size */
     line-height: 1.6; /* Set the line height for better readability */
-    margin: 20px; /* Add margin to provide space around the content */
-
     background-color: #ffd0a4;
    /* background-image: url("img/triangles_pattern.png");
     background-repeat:repeat; */
-    text-shadow: white 0px 0px 10px;
+   /* text-shadow: white 0px 0px 10px; */
 
     width: 60%; /* Set the width of the main content */
     margin: 50px auto; /* Center the main content horizontally and provide spacing from the top */
@@ -130,4 +128,9 @@ body{
     border-radius: 4px; /* Add rounded corners to preformatted text */
     overflow-x: auto; /* Add horizontal scrollbar when content overflows */
     white-space: pre-wrap; /* Wrap long lines */
+}
+
+.myimg {
+    display: flex;
+justify-content: center;
 }
