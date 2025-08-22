@@ -1,0 +1,58 @@
+<!doctype html>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<div class="header">
+    <head>
+        <style>
+            p {
+                line-height: 200%;
+            }
+        </style>
+    </head>
+
+    <h6>Dewber productivity updates:</h6>
+</div>
+
+<p> (Newest -> oldest posts) </p>
+
+
+<div class="maincontent">
+<h3> Day 1: Aug 22nd 2025</h3>
+
+        <br />
+        The first day has been super productive. I started off with a custom theme (inspired by this person <a href="https://csszengarden.com/089/"> css zen garden </a>) and spent some time tweaking it. Visual design/organized design is always something I struggled with, and now after some years of doing this, I think I can build a pretty decent-ish ui.
+        <br />
+        I'm going for a design inspired by the 2000s (y2k), with gradients and desaturated colors. When I beauty this up, it'll look very cool.
+
+        <br> I like how the ps3 menu is so sparkly, with transparency and other good looking particles. Once I add shaders and animation effects, this will look cool.
+
+        <img
+        src="img/day0aug22nd2025.png"
+        width= "900"
+        height="400"
+        margin:auto />
+        <h3> Future work: </h3>
+        <br/>
+        I want to really dial in on adding tasks and creating a persistent database. It would be easiest to just create an sqlite database and read/load from that.... But I'm not so sure. I can always just use in built config files for consistency - that should be pretty device-agnostic.
+
+        <br/>
+        Tags are also a bit harder than anticipated. Just like with discussdock, I think I want to have a master list of tags. Each tag will use bbcode for an associated color
+        (not quite sure how im accomplishing this).
+
+        <br/>
+        Time is also something much more difficult than I thought. Go has a lot of easy ways of working with time... GDscript - not so much. I think I want to use unix time for everything and convert when necessary.... but I'm not sure about the long term scalability of this solution. I will eventually add hour-by-hour day planners, and converting between yyyy-mm-dd:hr-m-s-ms and unix time format will 100% be annoying. This is a system architecture question.
+    </p>
+</div>
+
+<div class="maincontent">
+    <p>
+        <br />
+        Github repo: https://github.com/NicholasDewberryOfficial/Dewber-Productivity-Godot_Ver-/tree/main
+        Itch.io demo: (TBD)
+        <br />
+        <h3> What is this? </h3>
+        <br/>
+        TL;DR I'm dissatisfied with the current productivity tools, and I'm making one that's inspired from my own life. No science, no studies - just some tools that I feel like should exist. Because it's highly opinionated - most people probably won't find it useful.
+
+    </p>
+</div>
