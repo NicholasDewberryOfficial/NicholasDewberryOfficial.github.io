@@ -16,6 +16,61 @@
 <p> (Newest -> oldest posts) </p>
 
 
+
+<div class="maincontent">
+<h3> Day 5: Aug 26th 2025</h3>
+
+        <br />
+        Made a lot of progress on saving/loading and adding tasks. UI got a small little update. The more I look at the UI, the more I like it. The outline on text makes it super easy to read. 
+
+<br/>
+
+Right now, the tags use levinstien distance and the main tag array to classify closeness. Each time you type, the backend iterates and looks for the closest match. Future work can make this more efficient (priority queue - so only the top 3 words get checked, and they can pop in/out) but I'll do it later.
+
+        <br />
+        Saving and loading is quite simple. Tedious, but simple. We just use a godot 4 config file that I make.
+        
+        <img
+        src="img/day5.png"
+        width= "900"
+        height="400"
+        margin:auto />
+        <h3> Tomorrow's work: </h3>
+        <br/>
+            Master test of adding things onto the list, adding tags, saving and loading. If this works, Dewber Productivity will be my new daily productivity tool.
+
+
+
+    </p>
+</div>
+<div class="maincontent">
+<h3> Day 2-4: Aug 23-25 2025</h3>
+
+        <br />
+        Made a lot of progress on the theme, and I had a lot of fun with exploring different color schemes and visual identities. I'd like to make this a little more frutiger - but GUI skinning can be my final step. <br/>
+
+        The GUI works by leveraging Godot 4 themes - and they're pretty drag and drop (just 1 file). When we finalize this, we can add theme switching as a last step.
+        <br />
+        Went into more detail on how adding tasks looks, and unifying the UI. This is basically a lot of backend stuff, but I'm feeling pretty good so far. 
+        <br>The tag database will use Godot 4 configfiles, and will be encrypted.
+        
+        <img
+        src="img/day2image.png"
+        width= "900"
+        height="400"
+        margin:auto />
+        <h3> Tomorrow's work: </h3>
+        <br/>
+            I want to find a way to solve this time Issue I'm having. I'll do it later tho. 
+            
+            <br /> I also have a better idea on how the tag database will work. It'll be a simple master list that we'll populate. Every task will have an array of tags - and the array of tags will be taken from the master list. If a user adds a tag thats not there - it'll be added.
+
+
+    </p>
+</div>
+
+
+
 <div class="maincontent">
 <h3> Day 1: Aug 22nd 2025</h3>
 
